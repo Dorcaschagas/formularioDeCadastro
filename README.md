@@ -2,6 +2,16 @@
 ---
 https://dorcaschagas.github.io/formularioDeCadastro/index.html
 
+Funcionalidades:
+
+Tratamento seguro de dados.
+Verificação de campos preenchidos
+Validação de e-mail, telefone e CPF
+Feedback visual após envio
+Experiência:
+
+Rápido, seguro e confiável
+
 # Tecnologias utilizadas
 
 Este projeto utiliza as seguintes tecnologias:
