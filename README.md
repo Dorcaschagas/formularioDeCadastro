@@ -10,12 +10,5 @@ https://dorcaschagas.github.io/formularioDeCadastro/index.html
   - após enviar os dados, load na tela enquanto aguarda resposta de cadastro.
 
 ### Tecnologias usadas.
-<i class="fab fa-html5"></i>  # Ícone HTML usando Font Awesome
+![Ícone HTML](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png)
 
-<i class="iconify" data-icon="logos:html-5"></i>  # Ícone HTML usando Iconify
-
-<i class="icon ion-logo-html5"></i>  # Ícone HTML usando Ionicons
-
-<i class="material-icons">code</i>  # Ícone HTML usando Material Design Icons
-
-<i class="octicon octicon-file-code"></i>  # Ícone HTML usando Octicons
