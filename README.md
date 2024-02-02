@@ -10,5 +10,6 @@ https://dorcaschagas.github.io/formularioDeCadastro/index.html
   - após enviar os dados, load na tela enquanto aguarda resposta de cadastro.
 
 ### Tecnologias usadas.
-![Ícone HTML](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png)
+![HTML](https://img.shields.io/badge/html5-logo-orange.svg?style=flat-square)
+
 
