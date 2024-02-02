@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="bootstrap/stylebootstrap.css">
+    <link rel="stylesheet" href="bootstrap/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+
+<body class="container-fluid p-5">
+    <!--=============================================================================
+
+    PÁGINA = viewcadastroClienteParaSuporte.html
+    DATA = 11/01/2024
+
+    =============================================================================
+    OBS: contem na pagina: 
+      -> Cliente envia dados para ser cadastrados pelo suporte.
+    =============================================================================
+
+    Versão    | Data Atualização | Função da página
+    -----------------------------------------------------------------------------
+    24.01.0.0 | 31/01/2024       | Cliente envia dados para cadastros
+
+ =============================================================================-->
+
+    <div class='d-flex titulo mb-4'>
+        <div class=''>
+            <h1 class='card-title'>Cadastro</h1>
+        </div>
+        <img src="img/logoAzul.png" alt="logo" class="imagemLogo">
+    </div>
+
+    <form id='formUsuario' class='forms-sample needs-validation' novalidate>
+        <div class='row'>
+            <div class='form-group mb-3 col-12'>
+                <label for='usunome'>Primeiro Nome</label>
+                <input type='text' class='form-control' id='usunome' placeholder='Usuário'>
+                <div id='validationusunome' class='invalid-feedback'></div>
+            </div>
+            <div class='form-group mb-3 col-12'>
+                <label for='usunomecompleto'>Nome Completo</label>
+                <input type='text' class='form-control' id='usunomecompleto' placeholder='Nome Completo'>
+                <div id='validationusunomecompleto' class='invalid-feedback'></div>
+            </div>
+            <div class='form-group mb-3 col-12'>
+                <label for='usucpf'>CPF</label>
+                <input type='text' maxlength="14" class='form-control' id='usucpf' placeholder='CPF'>
+                <div class="cpfOculto d-none">cpf oculto</div>
+                <div id='validationusucpf' class='invalid-feedback'></div>
+            </div>
+            <div class='form-group mb-3 col-12'>
+                <label for='usuemail'>E-mail</label>
+                <input type='text' class='form-control' id='usuemail' placeholder='seuemail@.com'>
+                <div id='validationusuemail' class='invalid-feedback'></div>
+            </div>
+            <div class='form-group mb-3 col-12'>
+                <label for='usucelular'>Celular</label>
+                <input type='text' maxlength="16" class='form-control' id='usucelular' placeholder='(xx) x xxxx-xxxx'>
+                <div id='validationusucelular' class='invalid-feedback'></div>
+            </div>
+            <div class='form-group mb-3 col-12 d-none'>
+                <label for='pk_empresa'>ID</label>
+                <input type="text" class='form-control' id='pk_empresa'>
+
+                <div id='validationfk_grupousuario' class='invalid-feedback'></div>
+            </div>
+            <div class='form-group mb-3 col-12'>
+                <label for='fk_empresa'>Empresa</label>
+                <input type="text" class='form-control' id='fk_empresa'>
+
+                <div id='validationfk_grupousuario' class='invalid-feedback'></div>
+            </div>
+            <div class='modal-footer'>
+
+                <button type='button' class='btn btn-secondary btn-sm m-1' onclick='toggleForm()'val='btn'>
+                    Cancelar
+                </button>
+
+                <button type="button" class='btn btn-primary btn-sm' onclick="salvaDados()">
+                    Savar
+                </button>
+
+            </div>
+        </div>
+    </form>
+
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="parametros.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
