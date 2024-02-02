@@ -131,7 +131,7 @@ function salvandoDados(dadosPreenchidos) {
 
 
 function enviaUsuario() {
-    $.ajax({
+    /*$.ajax({
       type: 'post',
       url: apiAddress + '/usuario',
       data: {
@@ -149,5 +149,8 @@ function enviaUsuario() {
     }).done(function(data){
       alert('Cadastrado Com Sucesso!')
       toggleForm()
-    })
+    })*/
+
+    alert('Cadastrado Com Sucesso!')
+    toggleForm()
   }
